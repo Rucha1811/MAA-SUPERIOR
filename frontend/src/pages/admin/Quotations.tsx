@@ -57,7 +57,7 @@ export default function AdminQuotations() {
         <div style={{ display:'flex', gap:6, flexWrap:'wrap' }}>
           {STATUSES.map(s => (
             <button key={s} onClick={()=>{ setStatus(s); setPage(1); }} style={{
-              padding:'7px 14px', border:'none', borderRadius:20, cursor:'pointer', fontSize:'0.78rem', fontWeight:600,
+              padding:'7px 14px', borderRadius:20, cursor:'pointer', fontSize:'0.78rem', fontWeight:600,
               background: status===s ? '#2D0000' : 'white',
               color: status===s ? 'white' : '#6A6A8A',
               border: status===s ? 'none' : '1px solid #E8E8E8',
