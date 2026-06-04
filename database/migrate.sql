@@ -147,7 +147,7 @@ INSERT INTO settings (key, value) VALUES
   ('phone',           '9879556507'),
   ('whatsapp',        '9879556507'),
   ('owner_name',      'Vipul Gandhi'),
-  ('address',         'Nr Shantivan School, Opp Mataji Mandir, Old Mahavir Ice-Cream Godown, Anand, Gujarat'),
+  ('address',         'Nr Shantivan School, Opp Mataji Mandir, Old Mahavir Ice-Cream Godown, Vadodara, Gujarat'),
   ('google_maps_url', 'https://maps.google.com/?q=22.302866,73.225555'),
   ('advance_percent', '50'),
   ('currency',        'INR')

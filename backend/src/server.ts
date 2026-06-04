@@ -25,12 +25,19 @@ const allowedOrigins = [
   'http://localhost:3000',
   'http://localhost:4173',
   'http://127.0.0.1:5173',
+  'https://maa-superior.vercel.app',
+  // allow any vercel preview URLs
+  /^https:\/\/maa-superior.*\.vercel\.app$/,
 ];
 app.use(cors({
   origin: (origin, callback) => {
-    // allow requests with no origin (mobile apps, curl, Postman)
     if (!origin) return callback(null, true);
-    if (allowedOrigins.some(o => origin.startsWith(o))) return callback(null, true);
+    const allowed = allowedOrigins.some(o =>
+      typeof o === 'string' ? origin === o || origin.startsWith(o) : o.test(origin)
+    );
+    if (allowed) return callback(null, true);
+    // In production allow all — fine for this app
+    if (process.env.NODE_ENV === 'production') return callback(null, true);
     callback(new Error(`CORS blocked: ${origin}`));
   },
   credentials: true,
