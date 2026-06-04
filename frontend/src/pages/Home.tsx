@@ -145,7 +145,7 @@ export default function Home() {
             {stats.map(s => (
               <div key={s.label}>
                 <div style={{ fontFamily: 'Cinzel,serif', fontSize: 'clamp(1.8rem,4vw,2.5rem)', fontWeight: 900, color: '#2D0000', lineHeight: 1 }}>{s.value}</div>
-                <div style={{ color: 'rgba(45,0,0,0.75)', fontSize: '0.8rem', marginTop: 6, fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem' }}>{s.label}</div>
+                <div style={{ color: 'rgba(45,0,0,0.75)', marginTop: 6, fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem' }}>{s.label}</div>
               </div>
             ))}
           </div>

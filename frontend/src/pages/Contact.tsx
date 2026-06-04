@@ -70,7 +70,7 @@ export default function Contact() {
                     icon: '📍',
                     title: 'Address',
                     content: (
-                      <span style={{ color: '#4A2800', fontSize: '0.9rem', lineHeight: 1.8, fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem' }}>
+                      <span style={{ color: '#4A2800', lineHeight: 1.8, fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem' }}>
                         Maa Superior Caterers<br />
                         Nr Shantivan School,<br />
                         Opp Mataji Mandir,<br />

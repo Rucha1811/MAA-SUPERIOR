@@ -392,7 +392,7 @@ export default function AdminEventRecords() {
                   </Section>
                   {selected.admin_notes && (
                     <Section title="Admin Notes">
-                      <div style={{ fontSize: '0.875rem', color: '#4A2800', lineHeight: 1.7, fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem' }}>{selected.admin_notes}</div>
+                      <div style={{ color: '#4A2800', lineHeight: 1.7, fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem' }}>{selected.admin_notes}</div>
                     </Section>
                   )}
                 </div>

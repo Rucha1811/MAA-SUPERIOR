@@ -160,7 +160,7 @@ export default function Menu() {
                                 display: 'flex', alignItems: 'center', gap: 8,
                                 padding: '7px 11px', borderRadius: 8,
                                 background: 'var(--cream)', border: '1px solid rgba(201,150,26,0.15)',
-                                fontSize: '0.83rem', color: '#2D0000', fontFamily: 'Cormorant Garamond,serif', fontSize: '0.95rem',
+                                color: '#2D0000', fontFamily: 'Cormorant Garamond,serif', fontSize: '0.95rem',
                               }}>
                                 <span style={{ width: 6, height: 6, borderRadius: '50%', background: '#C9961A', flexShrink: 0 }} />
                                 {item}
@@ -240,7 +240,7 @@ export default function Menu() {
                                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                                   color: '#2D0000', fontSize: '0.62rem', fontWeight: 900, fontFamily: 'Cinzel,serif',
                                 }}>{i + 1}</div>
-                                <span style={{ fontSize: '0.88rem', color: '#1A0A00', fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem', fontWeight: 500 }}>{item}</span>
+                                <span style={{ color: '#1A0A00', fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem', fontWeight: 500 }}>{item}</span>
                               </div>
                             ))}
                           </div>

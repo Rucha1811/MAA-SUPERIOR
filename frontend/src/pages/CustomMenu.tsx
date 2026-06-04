@@ -498,7 +498,7 @@ export default function CustomMenu() {
                     🍽️ Selection Summary
                   </h3>
                   {totalSelected === 0 ? (
-                    <div style={{ color: 'var(--text-light)', fontSize: '0.85rem', textAlign: 'center', padding: '20px 0', fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem', fontStyle: 'italic' }}>
+                    <div style={{ color: 'var(--text-light)', textAlign: 'center', padding: '20px 0', fontFamily: 'Cormorant Garamond,serif', fontSize: '1rem', fontStyle: 'italic' }}>
                       No dishes selected yet.<br/>Click any category to start.
                     </div>
                   ) : (

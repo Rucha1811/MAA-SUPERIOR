@@ -290,7 +290,7 @@ export default function QuoteRequest() {
                       </div>
                       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))', gap: 6 }}>
                         {PRESET_MENUS[menuPreview].items.map((item, i) => (
-                          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 6, fontSize: '0.8rem', color: '#4A2800', fontFamily: 'Cormorant Garamond,serif', fontSize: '0.95rem' }}>
+                          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: 6, color: '#4A2800', fontFamily: 'Cormorant Garamond,serif', fontSize: '0.95rem' }}>
                             <span style={{ width: 5, height: 5, borderRadius: '50%', background: '#C9961A', flexShrink: 0 }} />
                             {item}
                           </div>
